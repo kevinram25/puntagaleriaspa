@@ -5,13 +5,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         
-        <link rel="stylesheet" href="fontello.css">
-        <link rel="stylesheet" href="estilos.css">
-        
-                         
-    
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
+    
     <body>
+          
            <header>
                <div class="contenedor">
                    <h1 class="icon-sun-filled">Punta Galeria SPA</h1>
@@ -19,53 +18,81 @@
                        <label class="icon-menu" for="menu-bar"></label>
                        <nav class="menu">
                            <a href="">Inicio</a>
-                           <a href="">Servicios</a>
+                           <a href="paginas/servicios.html">Servicios</a>
                            <a href="">Promociones</a>
                            <a href="">Blog</a>
                            <a href="">Contacto</a>
                        </nav>
                </div>
-           </head>
+           </header>
             
+        <main>
+            <section id="banner">
+                <img src="img/banner2.jpg">
+                <div class="contenedor">
+                    <h2>Mascotas y niños felices</h2>
+                    <p>¿Cuál es la mejor mascota para usted?</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </section>
+            
+            <section id="bienvenidos">
+            <div class="contenedor">
+                <h2>BIENVENIDOS A PUNTA GALERIA SPA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ea eum alias reiciendis, tempore fugiat, distinctio nihil corrupti hic nostrum!</p>
+                </div>
+            </section>
+            
+            <section id="blog">
+                <h3>Lo último de nuestro blog</h3>
+                <div class="contenedor">
+                    <article>
+                        <img src="https://s21.postimg.org/5q412tttz/pet_blog1.jpg">
+                        <h4>Esconge tu mascota perfecta</h4>
+                    </article>
+                    <article>
+                        <img src="https://s21.postimg.org/owh860abr/pet_blog2.jpg">
+                        <h4>Los animales necesitan cariño</h4>
+                    </article>
+                    <article>
+                        <img src="https://s21.postimg.org/x397xl0ef/pet_blog3.jpg">
+                        <h4>Camina con tu mascota</h4>
+                    </article>
+                </div>
+            </section>
+            
+            <section id="info">
+                <h3>Para muchos de nosotros las mascotas no son simples compañeros, son miembros de la familia.</h3>
+                <div class="contenedor">
+                    <div class="info-pet">
+                        <img src="https://s21.postimg.org/k42tgtq9z/pet1.jpg" alt="">
+                        <h4>Max</h4>
+                    </div>
+                    <div class="info-pet">
+                        <img src="https://s21.postimg.org/ccm3i9m4n/pet2.jpg" alt="">
+                        <h4>Jerry</h4>
+                    </div>
+                    <div class="info-pet">
+                        <img src="https://s21.postimg.org/dsxm0ep1j/pet3.jpg" alt="">
+                        <h4>Tom</h4>
+                    </div>
+                    <div class="info-pet">
+                        <img src="https://s21.postimg.org/ui3na2b0n/pet4.jpg" alt="">
+                        <h4>Sam</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Punta Galeria SPA &copy; 2015</p>
+                <div class="sociales">
+                <a class="icon-facebook-squared" href="#"></a>
+                <a class="icon-twitter-squared" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+                <a class="icon-gplus-squared" href="#"></a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
-
-
-<!-- Estilos -->
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url(menu.css);
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-
-header{
-    width: 100%;
-    height: 50px;
-    background: #333;
-    color: #fff;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-
-.contenedor{
-    width: 98%;
-    margin: auto;
-}
-
-h1{
-    float: left;
-}
-
-header .contenedor{
-    display: table;
-}
