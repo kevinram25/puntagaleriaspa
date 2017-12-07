@@ -297,119 +297,97 @@ header label {
 
 /*---------------------------------------------banner---------------------------------------------------*/
 
-#banner {
+#bannerr {
     margin-top: 50px;
     position: relative;
     
 }
 
-#banner img {
+#bannerr img {
     width: 100%;
     height: 100%;
 }
 
-#banner .contenedor {
+#bannerr .contenedor {
     position:absolute;
     top: 40%;
-    left: 45%;
+    left: 110%;
     transform: translateX(-50%) translateY(-50%);
     color: #fff;
     text-align: right;
-    color: #fff;
-    
 }
 
 
-#banner h2 {
+#bannerr  h2 {
     font-size: 25px;
     color: #fff;
   
 }
 
 
+
+
     
 }
 
 @media(min-width:250px){
-    #banner h2 {
-        font-size: 35px;
+    #bannerr h2 {
+        font-size: 15px;
         color: #fff;
-    }
-    
-    #banner p{
-         font-size: 11px;
     }
     
 }
 
 @media(min-width:350px){
-    #banner h2 {
+    #bannerr h2 {
         font-size: 35px;
     }
 
-    #banner p{
-         font-size: 13px;
-    }
     
 }
 
 @media(min-width:480px){
-    #banner h2 {
+    #bannerr h2 {
         margin-top: 10px;
-        font-size: 55px;
+        font-size: 45px;
     }
     
-     #banner p{
-         margin-top: 15px;
-        font-size: 20px;
-    }
 }
 
 @media(min-width:768px){
-    #banner {
+    #bannerr {
         height: 300px;
         overflow: hidden;
     }
     
-    #banner img {
+    #bannerr img {
         height: 400px;
         margin-top: -100px;
     }
     
-     #banner h2 {
-        font-size: 60px;
-    }
-    
-     #banner p{
-        font-size:23px;
-         margin-top: 15px;
+     #bannerr h2 {
+        font-size: 45px;
     }
     
 }
 
 @media(min-width:1024px){
     
-     #banner {
+     #bannerr {
         height: 400px;
         overflow: hidden;
     }
     
-     #banner img {
+     #bannerr img {
         height:auto;
     }
     
-    #banner h2 {
-         margin-top: -100px;
-        font-size: 65px;
+    #bannerr h2 {
+        font-size: 60px;
     }
-    
-    #banner p{
-        font-size:25px;
-         margin-top: 10px;
-    }
-
 
 }
+
 
 
 

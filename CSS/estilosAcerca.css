@@ -342,7 +342,7 @@ header label {
 
 @media(min-width:350px){
     #banner h2 {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     
@@ -351,7 +351,7 @@ header label {
 @media(min-width:480px){
     #banner h2 {
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 45px;
     }
     
 }
@@ -368,7 +368,7 @@ header label {
     }
     
      #banner h2 {
-        font-size: 34px;
+        font-size: 45px;
     }
     
 }
@@ -385,8 +385,49 @@ header label {
     }
     
     #banner h2 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
 }
 
+
+
+
+/*---------------------------------------------Acerca SPA---------------------------------------------------*/
+
+
+    
+}
+
+#listaServ h1, h2, h3, h4, p{
+    text-align: justify
+}
+
+#acerca h3 {
+
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    border: 3px solid #398514;
+    border-left-width: 30px;
+   
+}
+
+#acerca h4 {
+    
+    color:black;
+    text-align:left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#acerca p {
+
+    color: #black;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    
+}

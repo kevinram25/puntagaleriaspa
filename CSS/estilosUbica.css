@@ -342,7 +342,7 @@ header label {
 
 @media(min-width:350px){
     #banner h2 {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     
@@ -351,7 +351,7 @@ header label {
 @media(min-width:480px){
     #banner h2 {
         margin-top: 10px;
-        font-size: 25px;
+        font-size: 45px;
     }
     
 }
@@ -368,7 +368,7 @@ header label {
     }
     
      #banner h2 {
-        font-size: 34px;
+        font-size: 45px;
     }
     
 }
@@ -385,7 +385,7 @@ header label {
     }
     
     #banner h2 {
-        font-size: 40px;
+        font-size: 60px;
     }
 
 }

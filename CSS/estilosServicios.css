@@ -229,6 +229,11 @@ header label {
 
 
 #bannerPaginas h2 {
+   text-align: right;
+  
+}
+
+#bannerPaginas h2 {
     font-size: 25px;
     color: #000000;
   
