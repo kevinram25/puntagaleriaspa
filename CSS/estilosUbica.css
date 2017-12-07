@@ -54,6 +54,11 @@ section{
     background-color: #A4C893;
 }
 
+#bienvenidos h3{
+    text-align: center;
+    background-color: #A4C893;
+}
+
 #bienvenidos h2{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -389,4 +394,13 @@ header label {
     }
 
 }
+
+/*---------------------------------------------Ubicacion SPA---------------------------------------------------*/
+
+
+    
+}
+
+
+
 
