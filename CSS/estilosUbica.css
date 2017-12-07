@@ -112,9 +112,10 @@ footer .contenedor {
     #bienvenidos p {
          text-align: center;
     }
-     #bienvenidos h2 {
+     #bienvenidos h2, h3 {
          text-align: center;
     }
+    
 }
 
 
