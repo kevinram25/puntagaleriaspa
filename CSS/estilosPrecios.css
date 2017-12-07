@@ -392,3 +392,52 @@ header label {
 }
 
 
+
+/*---------------------------------------------Guia SPA---------------------------------------------------*/
+
+
+    
+}
+
+#precios h1{
+    text-align: left;
+}
+
+#precios h3 {
+
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    border: 3px solid #398514;
+    border-left-width: 30px;
+   
+}
+
+#precios h4 {
+    
+    color:black;
+    text-align:left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#precios th, td,tr{
+
+    color: #black;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    
+}
+
+#precios p{
+
+    color: #black;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+    
+}
