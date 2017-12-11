@@ -343,12 +343,13 @@ header label {
 }
 
 #listaServ h1, h2, h3, h4, p{
-    text-align: justify
+    text-align: justify;
+    
 }
 
 #facials h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     text-align:inherit;
     font-size: 35px;
@@ -379,7 +380,7 @@ header label {
 
 #massage-therapies h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     font-size: 35px;
     margin-bottom: 40px;
@@ -419,7 +420,7 @@ header label {
 
 #body-treatments h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     font-size: 35px;
      margin-bottom: 25px;
@@ -453,7 +454,7 @@ header label {
 
 #mayan-rituals h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     font-size: 35px;
      margin-bottom: 25px;
@@ -483,7 +484,7 @@ header label {
 
 #packages h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     font-size: 35px;
      margin-bottom: 25px;
@@ -525,7 +526,7 @@ header label {
 
 #other-therapies h3 {
 
-    color: #F2F2F2;
+    color: black;
     text-align: left;
     font-size: 35px;
      margin-bottom: 25px;
